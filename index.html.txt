@@ -1,158 +1,0 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
-<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" onload="this.rel='stylesheet'" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              primary: '#13a4ec',
-              'background-light': '#f6f7f8',
-              'background-dark': '#101c22',
-            },
-            fontFamily: {
-              display: ['Plus Jakarta Sans'],
-            },
-            borderRadius: {
-              DEFAULT: '0.25rem',
-              lg: '0.5rem',
-              xl: '0.75rem',
-              full: '9999px',
-            },
-          },
-        },
-      };
-    </script>
-<title>السفر مع عبيدة | Obieda_Journeys</title>
-<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
-</head>
-<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
-<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
-<header class="sticky top-0 z-50 border-b border-gray-200/50 dark:border-gray-800/50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex h-16 items-center justify-between">
-<div class="flex items-center gap-4">
-<svg class="h-6 w-6 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path>
-</svg>
-<h2 class="text-lg font-bold text-gray-900 dark:text-white">السفر مع عبيدة | Obieda_Journeys</h2>
-</div>
-<div class="hidden items-center gap-8 md:flex">
-<nav class="flex items-center gap-6">
-<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#services">الخدمات</a>
-<a class="text-sm font-medium hover:text-primary dark:hover:text-primary transition-colors" href="#contact">التواصل</a>
-</nav>
-<button class="flex h-9 w-9 items-center justify-center rounded-full bg-primary/10 text-primary hover:bg-primary/20 dark:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
-<svg fill="currentColor" height="20px" viewBox="0 0 256 256" width="20px" xmlns="http://www.w3.org/2000/svg">
-<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"></path>
-</svg>
-</button>
-<div class="h-10 w-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1Bxu-SMtzFUXZDdCYB1mBYpHuVjVyu2zD2J7vqF7N6oHbPsqd9IilQJQHoDoyolUe4j9OKIcbnd6UDRnN5bD8XMRV3hjfd6fjJcsVz6TEIrIi3r_kMKwcsOoBgw2YAJOkH06GU-tY7dqqvammyu0I67NMRLnxPo19Mv-5Px8vDtjAOIoZJh0u3av5FZ5viQd0uWMWkumedK5sBT1P0iHLH4wJYhHmXysCDtnUprOebJTfKGdAYqdPv5TEfh_sITreHHcYbdP2kmo8");'></div>
-</div>
-<div class="flex items-center md:hidden">
-<button class="rounded-full p-2 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700">
-<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg>
-</button>
-</div>
-</div>
-</div>
-</header>
-<main class="flex-grow">
-<section class="relative flex min-h-[60vh] items-center justify-center bg-cover bg-center py-20" style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0rRia17nhCT_45FVgowV7JIX-J13drEr67AP0blFbPYB233GscwAzjue9mMx32tjEI8-cIgUtDHVuxs35-IkFHVXr36DRZdzu2J3g3-FEVfeSIicUVuBIDpjnHInDpN9KXo9QyqFuwD2ts81Wxp5_BCRxH33_tzpZzJDgUs9OrCKumAshoKgrXsUWwomW7w5_kHFXTqO9A0K-H8RKw4ZYnVY_Qyagxi8si9_rnGKa_71ri7e3OoHr_DJzVGsYsYHc-bchO6qOHM6Z");'>
-<div class="container mx-auto px-4 text-center text-white">
-<h1 class="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-              خدمات السفر والسياحة والدراسة في الخارج 🌎
-            </h1>
-<p class="mt-4 max-w-2xl mx-auto text-lg sm:text-xl text-gray-200">اكتشف العالم مع عبيدة في رحلاتك القادمة</p>
-<a class="mt-8 inline-block rounded-lg bg-primary px-8 py-3 text-base font-bold text-white shadow-lg transition-transform hover:scale-105" href="#contact">
-              ابدأ التخطيط
-            </a>
-</div>
-</section>
-<section class="py-16 sm:py-24" id="services">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-<div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
-<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">خدماتنا</h2>
-<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">نحن نساعدك على تحقيق أحلامك في السفر والدراسة في الخارج</p>
-</div>
-<div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-<div class="flex flex-col gap-4 rounded-xl border border-gray-200/80 dark:border-gray-800/80 bg-white/50 dark:bg-background-dark/50 p-6 shadow-sm hover:shadow-lg transition-shadow">
-<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
-<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
-<path d="M200,112a8,8,0,0,1-8,8H152a8,8,0,0,1,0-16h40A8,8,0,0,1,200,112Zm-8,24H152a8,8,0,0,0,0,16h40a8,8,0,0,0,0-16Zm40-80V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56ZM216,200V56H40V200H216Zm-80.26-34a8,8,0,1,1-15.5,4c-2.63-10.26-13.06-18-24.25-18s-21.61,7.74-24.25,18a8,8,0,1,1-15.5-4,39.84,39.84,0,0,1,17.19-23.34,32,32,0,1,1,45.12,0A39.76,39.76,0,0,1,135.75,166ZM96,136a16,16,0,1,0-16-16A16,16,0,0,0,96,136Z"></path>
-</svg>
-</div>
-<div class="flex flex-col gap-1">
-<h3 class="text-lg font-bold text-gray-900 dark:text-white">خدمات التأشيرات</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400">تقديم خدمات تأشيرات لأوروبا وكندا والولايات المتحدة وأستراليا لتسهيل إجراءات السفر. 🇺🇸🇨🇦🇦🇺🇪🇺</p>
-</div>
-</div>
-<div class="flex flex-col gap-4 rounded-xl border border-gray-200/80 dark:border-gray-800/80 bg-white/50 dark:bg-background-dark/50 p-6 shadow-sm hover:shadow-lg transition-shadow">
-<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
-<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
-<path d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96Zm64,24V200H96V72ZM40,72H80V200H40ZM216,200H176V72h40V200Z"></path>
-</svg>
-</div>
-<div class="flex flex-col gap-1">
-<h3 class="text-lg font-bold text-gray-900 dark:text-white">تنظيم تجارب سياحية فريدة</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400">نقوم بتنظيم تجارب سياحية فريدة ومعاصرة تجعل رحلاتك لا تنسى.</p>
-</div>
-</div>
-<div class="flex flex-col gap-4 rounded-xl border border-gray-200/80 dark:border-gray-800/80 bg-white/50 dark:bg-background-dark/50 p-6 shadow-sm hover:shadow-lg transition-shadow">
-<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 text-primary">
-<svg fill="currentColor" height="28px" viewBox="0 0 256 256" width="28px" xmlns="http://www.w3.org/2000/svg">
-<path d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"></path>
-</svg>
-</div>
-<div class="flex flex-col gap-1">
-<h3 class="text-lg font-bold text-gray-900 dark:text-white">دعم كامل للطلاب الدارسين في الخارج</h3>
-<p class="text-sm text-gray-600 dark:text-gray-400">نقدم دعما كاملا للطلاب من التقديم للجامعات إلى التسجيل والإقامة.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="bg-white dark:bg-background-dark/70 py-16 sm:py-24" id="contact">
-<div class="container mx-auto px-4 sm:px-6 lg:px-8">
-<div class="mx-auto max-w-2xl text-center lg:max-w-4xl">
-<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">تواصل معنا</h2>
-<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">نحن هنا لمساعدتك في التخطيط لرحلتك القادمة. لا تتردد في التواصل.</p>
-</div>
-<div class="mt-12 max-w-xl mx-auto">
-<div class="divide-y divide-gray-200 dark:divide-gray-800">
-<div class="flex items-center justify-between py-4">
-<p class="text-base font-medium text-gray-500 dark:text-gray-400">البريد الإلكتروني</p>
-<a class="text-base text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="mailto:info@obieda_journeys.com">info@obieda_journeys.com</a>
-</div>
-<div class="flex items-center justify-between py-4">
-<p class="text-base font-medium text-gray-500 dark:text-gray-400">إنستاجرام</p>
-<a class="text-base text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors" href="https://instagram.com/obieda_journeys" target="_blank">@obieda_journeys</a>
-</div>
-<div class="flex items-center justify-between py-4">
-<p class="text-base font-medium text-gray-500 dark:text-gray-400">الهاتف</p>
-<p class="text-base text-gray-800 dark:text-gray-200">+962 7X XXX XXXX</p>
-</div>
-</div>
-<div class="mt-8 text-center">
-<a class="inline-block rounded-lg bg-primary px-8 py-3 text-base font-bold text-white shadow-lg transition-transform hover:scale-105" href="tel:+9627XXXXXXXX">
-                  اتصل بنا الآن
-                </a>
-</div>
-</div>
-</div>
-</section>
-</main>
-<footer class="bg-background-light dark:bg-background-dark border-t border-gray-200/50 dark:border-gray-800/50">
-<div class="container mx-auto px-4 py-8 sm:px-6 lg:px-8 text-center">
-<p class="text-sm text-gray-500 dark:text-gray-400">© 2024 حقوق النشر محفوظة، السفر مع عبيدة</p>
-</div>
-</footer>
-</div>
-
-</body></html>
